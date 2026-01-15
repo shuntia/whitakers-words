@@ -1,7 +1,6 @@
 [Project Website](http://mk270.github.io/whitakers-words/)
 
-WORDS
-=====
+# WORDS
 
 This is a cleaned-up version of the port of William Whitaker's WORDS
 programme, a Latin-English dictionary with inflectional morphology
@@ -11,8 +10,7 @@ would be greatly appreciated.
 
 Effectively, this is an exercise in digital preservation.
 
-Contributing
-============
+# Contributing
 
 Help is needed maintaining the code for future users; in particular, it
 does not currently support vowel length, so it may be necessary to gather
@@ -22,24 +20,20 @@ If you contribute, please be sure to indicate your assent to redistributing
 your contributions under the same terms as the existing software; this
 will minimise copyright hassles in the future.
 
-Usage
-=====
+# Usage
 
     $ make
     $ bin/words
 
-Documentation
-=============
+# Documentation
 
-See the HOWTO.txt file included, 
+See the HOWTO.txt file included,
 and documentation on the [Project Website](http://mk270.github.io/whitakers-words/operational.html)
 
+# Build-time Dependencies
 
-Build-time Dependencies
-=======================
-
-* GPRBuild
-* gnat
+- GPRBuild
+- gnat
 
 On a Debian-like system, you can install these roughly as follows:
 
@@ -48,8 +42,7 @@ On a Debian-like system, you can install these roughly as follows:
 GNAT versions before 4.9 are believed to link against a buggy runtime on
 64-bit platforms, so should be avoided.
 
-Licensing
-=========
+# Licensing
 
 WORDS, a Latin dictionary, by Colonel William Whitaker (USAF, Retired)
 
